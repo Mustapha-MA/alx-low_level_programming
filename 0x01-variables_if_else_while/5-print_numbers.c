@@ -6,17 +6,13 @@
  */
 int main(void)
 {
-	int d = 48;
-
+	int d = 48;	
 	while (d < 58)  
-	
 	{
 		putchar(d);
 		d++;
 	}
-	
 		putchar('\n');
-		
 
 		return (0);
 }
