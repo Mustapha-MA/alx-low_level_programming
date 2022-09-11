@@ -10,8 +10,8 @@ int main(void)
 
 		while (c <= 'z')
 	{
-		if (low != e && c != q)
-			putchar(low);
+		if (c != q && c != e)
+			putchar(c);
 
 
 	 c++;
