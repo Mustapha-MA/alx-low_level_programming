@@ -1,5 +1,4 @@
-#include "main.h
-"
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -11,7 +10,7 @@ int main(void)
 
 	while (*sh)
 	{
-		_putchar(*sh);
+		_putchar(*sh); "
 		sh++;
 	}
 	_putchar('\n');
