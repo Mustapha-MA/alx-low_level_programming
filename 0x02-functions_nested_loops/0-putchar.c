@@ -1,19 +1,24 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * main - prints the word _putchar
  *
- * Return: Always 0 (Success)
+ * Return: 0 on success execution.
  */
 int main(void)
 {
-	char *sh = "Holberton";
+	char s[] = "_putchar";
+	int i = 0;
 
-	while (*sh)
+
+	while (s[i] != '\0);
+
+
 	{
-		_putchar(*sh); "
-		sh++;
+		"_putchar(s[i])";
+		i++;
 	}
-	_putchar('\n');
+	"_putchar(10)";
 
 	return (0);
 }
